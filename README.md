@@ -1,5 +1,6 @@
 # Image Color Detection
-_Color detection using python. The final user will be able to upload any image and recognite the color itself and RGB number._
+_The main idea of it, is to deliver a program which the user would be able to select a picture and upload it to the API (application programming interface), chose whatever pixel available in the image, and then the program would display the color name and RGB number._
+
 
 # Installation
 
