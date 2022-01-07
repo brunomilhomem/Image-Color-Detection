@@ -7,4 +7,3 @@ _Color detection using python. The final user will be able to upload any image a
 python -m pip install -r backend/requirements.txt
 python -m pip install -r frontend/requirements.txt
 ```
-
