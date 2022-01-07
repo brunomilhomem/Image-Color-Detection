@@ -6,7 +6,7 @@ _The main idea of it, is to deliver a program which the user would be able to se
 
 The project was built in three steps:
 
-| Nr. | Methods |
+| Nr. | Steps |
 | ------ | ------ |
 | 1 | Backend development - The functionalities to upload the files and capture the mouse event clicks were created as REST API using FastApi() in the Backend. |
 | 2 | Frontend development - Where Users will be able to interact with API’s created to upload an image and find out the colors selected in the image. |
