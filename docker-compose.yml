@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  frontend:
+#    build: frontend
+    image: nish97/color-detection-frontend:0.1
+    environment:
+      - URL=http://backend:8081/
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
+    links:
+      - backend
+
+  backend:
+#    build: backend
+    image: nish97/color-detection-backend:0.1
+    environment:
+      - PORT=8081
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./storage:/storage
